@@ -1,7 +1,7 @@
 # import the relevant modules
 import pyautogui
 import time
-pyautogui.FAILSAFE = False
+# pyautogui.FAILSAFE = False falsify the failsafe
 
 # sleep
 time.sleep(3)
@@ -13,12 +13,12 @@ time.sleep(3)
 
 # moving the mouse
 
-pyautogui.moveTo(0,0,3)
+# pyautogui.moveTo()
 
-pyautogui.moveTo(18,54,3)
+# pyautogui.moveTo()
 
 #clicking
-pyautogui.click() #pyautogui.click(26,65,number of clicks). "YOU CAN GIVE COORDINATES OR USE movTo to take the pointer to the point u want"
+# pyautogui.click() #pyautogui.click(26,65,number of clicks). "YOU CAN GIVE COORDINATES OR USE movTo to take the pointer to the point u want"
 
 # left click and right click
 # pyautogui.leftClick()
@@ -29,4 +29,4 @@ pyautogui.click() #pyautogui.click(26,65,number of clicks). "YOU CAN GIVE COORDI
 
 
 # scrolling
-# pyautogui.scroll(-500)
+pyautogui.scroll(-500)
